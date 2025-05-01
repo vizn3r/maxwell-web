@@ -86,7 +86,7 @@
     </div>
     <script>
       // Set launch date (YYYY, MM-1, DD)
-      const launchDate = new Date(2025, 11, 1).getTime();
+      const launchDate = new Date(2000, 11, 1).getTime();
       function updateCountdown() {
         const now = new Date().getTime();
         const distance = launchDate - now;
@@ -103,7 +103,7 @@
 
         if (distance < 0) {
           clearInterval(countdownInterval);
-          document.querySelector('.countdown').innerHTML = "<h2>LAUNCHED!</h2>";
+          document.querySelector('.countdown').innerHTML = "<h2>Date is To Be Determined</h2>";
         }
       }
 
