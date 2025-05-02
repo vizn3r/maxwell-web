@@ -26,13 +26,16 @@
     <link rel="manifest" href="/site.webmanifest">
   </head>
   <body>
+    <div class="emoji-background"></div>
     <div class="container">
       <div class="logo">MAXWELL</div>
       <div class="content">
-        <h1 class="launch-text">
-          LAUNCHING SOON
-        </h1>
-        <p>A modular, AI-powered Discord bot with dynamic command handling, adaptive behavior, and custom interactions for personalized community experiences.</p>
+        <p class="description">A modular, AI-powered Discord bot with dynamic command handling, adaptive behavior, and custom interactions for personalized community experiences.</p>
+        <div class="launch-heading">
+          <h1 class="launch-text">
+            LAUNCHING SOON
+          </h1>
+        </div>
         <div class="countdown">
           <div class="countdown-item">
             <div class="countdown-number" id="days">00</div>
@@ -124,6 +127,27 @@
         </div>
       </footer>
     </div>
+    <script>
+      function createEmoji() {
+        const emojis = ['😺', '🤖', '✨', '🎮', '👾', '💬', '🎨', '⚡', '🔮', '👑', '🐾', '🦄'];
+        const container = document.querySelector('.emoji-background');
+        const emoji = document.createElement('div');
+        
+        emoji.style.left = Math.random() * 100 + '%';
+        emoji.style.animationDuration = Math.random() * 10 + 5 + 's';
+        emoji.style.animationDelay = Math.random() * 2 + 's';
+        emoji.style.opacity = Math.random();
+        emoji.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
+        
+        container.appendChild(emoji);
+        
+        // Remove emoji after animation
+        setTimeout(() => emoji.remove(), 20000);
+      }
+
+      // Create emojis periodically
+      setInterval(createEmoji, 500);
+    </script>
     <script>
       // Set launch date (YYYY, MM-1, DD)
       const launchDate = new Date(2000, 11, 1).getTime();
