@@ -7,7 +7,7 @@
 
 html {
     background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
-    background-color: #9f00ff;
+    background-color: #fed9fa;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #9f00ff;
+    background-color: #fed9fa;
 }
 
 .container {
@@ -71,7 +71,7 @@ body {
 .logo {
     font-size: 5rem;
     font-weight: 700;
-    color: #9f00ff;
+    color: #fed9fa;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin: 4rem 0;
@@ -92,7 +92,7 @@ body {
     display: block;
     line-height: 1.2;
     margin: 2rem 0;
-    background: linear-gradient(45deg, #9f00ff, white);
+    background: linear-gradient(45deg, #fed9fa, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -106,7 +106,7 @@ h1 {
 }
 
 .highlight {
-    color: #9f00ff;
+    color: #fed9fa;
 }
 
 .countdown {
@@ -133,7 +133,7 @@ h1 {
 .countdown-number {
     font-size: 2.5rem;
     font-weight: 600;
-    color: #9f00ff;
+    color: #fed9fa;
     text-shadow: 0 0 15px rgba(159, 0, 255, 0.3);
 }
 
@@ -150,7 +150,7 @@ h1 {
 
 input[type="email"] {
     padding: 1rem 1.5rem;
-    border: 2px solid #9f00ff;
+    border: 2px solid #fed9fa;
     border-radius: 50px;
     background: transparent;
     color: white;
@@ -161,7 +161,7 @@ input[type="email"] {
 
 .notify-button {
     padding: 1rem 2rem;
-    background: #9f00ff;
+    background: #fed9fa;
     border: none;
     border-radius: 50px;
     color: white;
@@ -187,7 +187,7 @@ input[type="email"] {
 }
 
 .social-links a:hover {
-    color: #9f00ff;
+    color: #fed9fa;
 }
 
 .features-grid {
@@ -214,12 +214,12 @@ input[type="email"] {
 
 .feature-icon {
     font-size: 2.5rem;
-    color: #9f00ff;
+    color: #fed9fa;
     margin-bottom: 1.5rem;
 }
 
 .feature-card h3 {
-    color: #9f00ff;
+    color: #fed9fa;
     margin-bottom: 1rem;
     font-size: 1.2rem;
 }
@@ -241,7 +241,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #9f00ff !important;
+    color: #fed9fa !important;
 }
 
 .social-links i {
@@ -257,7 +257,7 @@ footer a:hover {
 /* Bluesky icon customization */
 .fa-square {
     position: relative;
-    color: #9f00ff !important;
+    color: #fed9fa !important;
 }
 
 .fa-square::after {
