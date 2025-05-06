@@ -120,9 +120,12 @@
       </div>
       <footer style="margin-top: 5rem; padding: 2rem 0; border-top: 1px solid rgba(255, 255, 255, 0.1);">
         <div class="social-links" style="margin-bottom: 1.5rem;">
-          <a href="https://discord.gg/v2Un5qXm7c" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
-          <a href="https://x.com/vizn3r" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://dsc.gg/maxwells-house" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+          <a href="https://x.com/maxwell_dsc" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
           <a href="https://trello.com/b/2KkvMJRh/todo" target="_blank" aria-label="Trello"><i class="fab fa-trello"></i></a>
+          <a href="https://gumroad.vizn3r.eu" target="_blank" aria-label="Gumroad">
+            <img src="https://assets-global.website-files.com/6171b265e5c8aa59b42c3472/618f28a89e94524552a002cb_g-icon.svg" alt="Gumroad" style="height: 1em; vertical-align: middle;">
+          </a>
         </div>
         <div style="color: #888; font-size: 0.9rem; margin-bottom: 0.5rem;">
           Made with ♥ by
@@ -174,12 +177,12 @@
 
         if (distance < 0) {
           clearInterval(countdownInterval);
-          document.querySelector('.countdown').innerHTML = `<div class="countdown-item countdown-number" style="color: #ccc;">Date is TBD, join <a href="https://discord.gg/v2Un5qXm7c">Discord</a> for updates</div>`;
+          document.querySelector('.countdown').innerHTML = `<div class="countdown-item countdown-number" style="color: #ccc;">Date is TBD, join <a href="https://dsc.gg/maxwells-house">Discord</a> for updates</div>`;
         }
       }
 
       const countdownInterval = setInterval(updateCountdown, 1000);
-      updateCountdown(); // Initial call
+      updateCountdown();
     </script>
   </body>
 </html>
