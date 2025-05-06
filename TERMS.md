@@ -1,4 +1,11 @@
-# DRAFT
+# PUBLIC DRAFT - NOT FINAL
+## This is a public draft of our upcoming Terms of Service. It is shared for transparency and feedback purposes. This version is not yet in effect and not legally binding. The final version may change before official launch.
+
+---
+
+### For any questions, send email to: `maxwell@vizn3r.eu`
+
+---
 
 # Terms of Service
 **Effective Date:** TBD
