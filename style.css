@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+  color-scheme: dark;
+}
+
 html {
     background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
     background-color: #fed9fa;
